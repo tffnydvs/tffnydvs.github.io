@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Proxima Nova", sans-serif;
+    color: white;
+}
+
+#main-header a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#main-header a:hover {
+    color: #3D67D9;
+}
+
+#main-header {
+    height: 100vh;
+    background-image: url(../images/budascoop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container-nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    text-transform: uppercase;
+    align-items: flex-start;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+#main-header .navh3 {
+    padding: 20px;
+}
+
+
+.logo {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.logofoto {
+    max-width: 180px;
+    padding: 20px;
+}
+
+
+.geelkot {
+    background-color: #FDC800;
+    padding: 50px;
+    position: absolute;
+    top: 400px;
+    left: 60px;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 45pt;
+
+}
+
+h2 {
+    color: #000033;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+
+.arrow {
+    background-color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.fa-angle-down {
+    color: #000033;
+}
+
+
+.containers {
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.container-inhoud {
+    background-color: #000033;
+    padding: 80px;
+    margin-bottom: 80px;
+    width: 50%;
+}
+
+.container-inhoud2 {
+    background-color: #3D67D9;
+    padding: 80px;
+    margin-top: 80px;
+    width: 50%;
+
+}
+
+.oogenster {
+    max-width: 100px;
+    padding: 0 0 30px 0;
+    margin: 0 0 0 -10px;
+}
+
+.button {
+    border: 2px solid white;
+    background-color: #3D67D9;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #3D67D9;
+    border: 2px solid white;
+}
+
+
+.button2 {
+    border: 2px solid #3D67D9;
+    background-color: white;
+    color: #3D67D9;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    margin: 0px 0 30px 20px; 
+}
+
+.button2:hover {
+    background-color: #3D67D9;
+    color: white;
+    border: 2px solid #3D67D9;
+}
+
+
+.footer {
+    background-color: #3D67D9;
+    color: white;
+    text-align: right;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.inhoud-footer {
+    margin: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footertext {
+    margin-right: 60px;
+}
+
+.logofoto2 {
+    max-width: 400px;
+    margin: 30px 10px 20px 0;
+}
+
+.logofoto3 {
+    max-width: 100px;
+}
+
+
+
+/* ====== Other Pages ====== */
+
+#pages-header {
+    height: 30vh;
+    background-image: url(../images/budascoop2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.pages-title {
+    padding: 30px;
+}
+
+.oogenster2 {
+    max-width: 100px;
+    margin-left: 45px; 
+    margin-top: 70px; 
+}
+
+.h4 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 60px; 
+}
+
+.container-nav-pages {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.container-nav-pages .navh3 .active {
+    color: #EEEEEE;
+    background-color: #000033;
+}
+
+.container-nav-pages a:link, .container-nav-pages
+a:visited {
+    text-decoration: none;
+    color: #000033;
+    background-color: #EEEEEE;
+    padding: 10px 15px; 
+}
+
+
+.container-nav-pages a:hover {
+    color: #EEEEEE;
+    background-color: #000033;
+    padding: 10px 15px; 
+}
+
+.container-nav-pages .navh3 {
+    color: #000033;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 20px 60px;  
+}
+
+.pages-content {
+    margin: 25px; 
+}
+
+.main-pages {
+    display: flex; 
+    flex-direction: row; 
+    color: #000033; 
+}
+
+.contentfoto {
+    max-width: 200px; 
+    margin-bottom: 20px; 
+}
+
+.contentfoto2 {
+    max-width: 200px; 
+    margin-bottom: 20px; 
+    margin-left: 20px; 
+    background-color: #3D67D9; 
+}
+
+.contentfoto3 {
+    max-width: 200px; 
+    margin-bottom: 20px; 
+    margin-left: 20px; 
+    background-color: black; 
+}
+
+.contentfoto4 {
+    max-width: 200px; 
+    margin-bottom: 20px; 
+    margin-left: 20px; 
+    background-color: white 
+}
+
+
+.oogenster3 
+{
+    max-width: 50px;
+    margin-left: 12px;  
+}
+
+.textheading {
+    font-size: 15pt; 
+    font-weight: 700;
+    margin-left: 20px; 
+    margin-bottom: 20px;  
+    line-height: 25px;
+}
+
+.textcontent {
+    font-size: 12pt; 
+    margin-left: 20px; 
+    margin-bottom: 20px;  
+    max-width: 400px; 
+    line-height: 20px; 
+}
+
+.fotolettertype {
+    max-width: 500px; 
+    margin-bottom: 20px; 
+    margin-left: 5px; 
+}
+
+.fotokleur {
+    max-height: 250px; 
+    margin-bottom: 20px; 
+}
+
+.fotokleur2 {
+    max-height: 222px; 
+    margin-bottom: 20px; 
+    margin-left:5px; 
+}
+
+.fotokleur3 {
+    max-height: 222px; 
+    margin-bottom: 20px; 
+}
+
+.fotoprint {
+    max-height: 250px; 
+    margin-bottom: 20px; 
+    margin-left: 20px; 
+}
+
+.fotoposters {
+    max-height: 400px; 
+    margin-bottom: 20px; 
+    margin-left: 20px; 
+}
+
+.fotolayout {
+    max-width: 600px; 
+    margin-bottom: 20px;
+    margin-left: 10px; 
+}
+
+.fotoster {
+max-width: 600px; 
+margin-bottom: 20px;
+margin-left: -20px; 
+}
+
+.fotolijsten {
+    max-width: 200px; 
+    margin-bottom: 20px;
+    margin-left: 10px; 
+}
+
+
+
+
+
+/* ====== Responsive iPhone Home ====== */
+
+@media only screen and (max-width: 720px) {
+    .containers {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container-inhoud {
+        background-color: #000033;
+        padding: 60px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .container-inhoud2 {
+        background-color: #3D67D9;
+        padding: 60px;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .inhoud-footer {
+        margin: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footertext {
+        margin-right: 0px;
+    }
+
+    h1 {
+        font-size: 30pt;
+
+    }
+
+    h2 {
+        font-size: 15px;
+
+    }
+
+    .main-pages {
+        display: flex; 
+        flex-direction: column;     }
+
+        .pages-content {
+            margin: 25px 25px 25px 70px; 
+        }
+}

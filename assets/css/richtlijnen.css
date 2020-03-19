@@ -1,0 +1,236 @@
+:root {
+
+/*** Colour palette */
+
+    --c-kb-yellow: #F9C903;
+    --c-kb-green: #039C6D;
+    --c-kb-blauw: #3D67D9;
+    --c-kb-pink: #FE91A4;
+    --c-kb-darkblue: #000033;
+    --c-kb-grey: #EEEEEE;
+    --c-kb-white: #FFFFFF;
+
+ /*** Typography */
+
+    --t-primary: "Proxima Nova", sans-serif;
+}
+
+/*** Webpagina: typografie-richtlijnen */
+
+.t-titel {
+    color: var(--c-kb-darkblue);
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.t-tussentitel {
+    color: var(--c-kb-darkblue);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.t-lopendetekst {
+    color: var(--c-kb-darkblue);
+    font-size: 20px;
+}
+
+.t-lopendetekstbold {
+    color: var(--c-kb-darkblue);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.t-titelsfilms {
+    color: var(--c-kb-yellow);
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.t-namenregisseurs {
+    color: var(--c-kb-blue);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.t-bijschrift {
+    background-color: var(--c-kb-blue);
+    padding: 5px 8x;
+    color: var(--c-kb-grey);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.t-dataenuren {
+    color: var(--c-kb-blue);
+    font-size: 20px;
+}
+
+.t-belangrijkeparagraaf {
+    color: var(--c-kb-darkblue);
+    font-size: 30px;
+}
+
+.t-nieuwsberichten {
+    color: var(--c-kb-darkblue);
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.t-agendatitels {
+    color: var(--c-kb-darkblue);
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.t-labels {
+    color: var(--c-kb-darkblue);
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.button {
+    background-color: var(--c-kb-grey);
+    color: var(--c-kb-darkblue);
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: var(--c-kb-darkblue);
+    color: var(--c-kb-wit);
+}
+
+.button2 {
+    border: 2px solid var(--cc-kb-darkblue);
+    background-color: var(--c-kb-white);
+    color: var(--c-kb-darkblue);
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+}
+
+.button2:hover {
+    background-color: var(--c-kb-darkblue);
+    color: var(--c-kb-wit);
+}
+
+
+/*** Mobiel: typografie-richtlijnen */
+
+.t-titel-mob {
+    color: var(--c-kb-darkblue);
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.t-tussentitel-mob {
+    color: var(--c-kb-darkblue);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.t-lopendetekst-mob {
+    color: var(--c-kb-darkblue);
+    font-size: 16px;
+}
+
+.t-lopendetekstbold-mob {
+    color: var(--c-kb-darkblue);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.t-titelsfilms-mob {
+    color: var(--c-kb-yellow);
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.t-namenregisseurs-mob {
+    color: var(--c-kb-blue);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.t-bijschrift-mob {
+    background-color: var(--c-kb-blue);
+    padding: 5px 8x;
+    color: var(--c-kb-grey);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.t-dataenuren-mob {
+    color: var(--c-kb-blue);
+    font-size: 12px;
+}
+
+
+.t-agendatitels-mob {
+    color: var(--c-kb-darkblue);
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.t-labels-mob {
+    color: var(--c-kb-darkblue);
+    font-weight: 900;
+    font-size: 6px;
+    text-transform: uppercase;
+}
+
+.button-mob {
+    background-color: var(--c-kb-grey);
+    color: var(--c-kb-darkblue);
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+}
+
+.button-mob:hover {
+    background-color: var(--c-kb-darkblue);
+    color: var(--c-kb-wit);
+}
+
+.button2-mob {
+    border: 2px solid var(--cc-kb-darkblue);
+    background-color: var(--c-kb-white);
+    color: var(--c-kb-darkblue);
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+}
+
+.button2-mob:hover {
+    background-color: var(--c-kb-darkblue);
+    color: var(--c-kb-wit);
+}
