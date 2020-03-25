@@ -160,7 +160,7 @@ h2 {
     font-size: 12px;
     transition-duration: 0.4s;
     text-transform: uppercase;
-    margin: 0px 0 30px 20px; 
+    margin: 0px 0 30px 20px;
 }
 
 .button2:hover {
@@ -219,21 +219,21 @@ h2 {
 
 .oogenster2 {
     max-width: 100px;
-    margin-left: 45px; 
-    margin-top: 70px; 
+    margin-left: 45px;
+    margin-top: 70px;
 }
 
 .h4 {
     font-size: 40px;
     font-weight: 600;
-    margin-left: 60px; 
+    margin-left: 60px;
 }
 
 .container-nav-pages {
     display: flex;
     flex-direction: column;
     margin: 20px;
-    position: fixed; 
+    position: fixed;
 }
 
 .container-nav-pages .navh3 .active {
@@ -241,151 +241,150 @@ h2 {
     background-color: #000033;
 }
 
-.container-nav-pages a:link, .container-nav-pages
-a:visited {
+.container-nav-pages a:link,
+.container-nav-pages a:visited {
     text-decoration: none;
     color: #000033;
     background-color: #EEEEEE;
-    padding: 10px 15px; 
+    padding: 10px 15px;
 }
 
 
 .container-nav-pages a:hover {
     color: #EEEEEE;
     background-color: #000033;
-    padding: 10px 15px; 
+    padding: 10px 15px;
 }
 
 .container-nav-pages .navh3 {
     color: #000033;
     text-transform: uppercase;
     font-size: 12px;
-    margin: 20px 60px;  
+    margin: 20px 60px;
 }
 
 .pages-content {
-    margin: 25px 25px 25px 325px; 
+    margin: 25px 25px 25px 325px;
 }
 
 .main-pages {
-    display: flex; 
-    flex-direction: row; 
-    color: #000033; 
+    display: flex;
+    flex-direction: row;
+    color: #000033;
 }
 
 .contentfoto {
-    max-width: 200px; 
-    margin-bottom: 20px; 
+    max-width: 200px;
+    margin-bottom: 20px;
 }
 
 .contentfoto2 {
-    max-width: 200px; 
-    margin-bottom: 20px; 
-    margin-left: 20px; 
-    background-color: #3D67D9; 
+    max-width: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: #3D67D9;
 }
 
 .contentfoto3 {
-    max-width: 200px; 
-    margin-bottom: 20px; 
-    margin-left: 20px; 
-    background-color: black; 
+    max-width: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: black;
 }
 
 .contentanimatie {
-    max-width: 500px; 
-    margin-left: 20px; 
+    max-width: 500px;
+    margin-left: 20px;
 
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .contentfoto4 {
-    max-width: 200px; 
-    margin-bottom: 20px; 
-    margin-left: 20px; 
-    background-color: white 
+    max-width: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: white
 }
 
 
-.oogenster3 
-{
+.oogenster3 {
     max-width: 50px;
-    margin-left: 12px;  
+    margin-left: 12px;
 }
 
 .textheading {
-    font-size: 15pt; 
+    font-size: 15pt;
     font-weight: 700;
-    margin-left: 20px; 
-    margin-bottom: 20px;  
+    margin-left: 20px;
+    margin-bottom: 20px;
     line-height: 25px;
 }
 
 .textcontent {
-    font-size: 12pt; 
-    margin-left: 20px; 
-    margin-bottom: 20px;  
-    max-width: 400px; 
-    line-height: 20px; 
+    font-size: 12pt;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    line-height: 20px;
 }
 
 .fotolettertype {
-    max-width: 500px; 
-    margin-bottom: 20px; 
-    margin-left: 5px; 
+    max-width: 500px;
+    margin-bottom: 20px;
+    margin-left: 5px;
 }
 
 .fotokleur {
-    max-height: 250px; 
-    margin-bottom: 20px; 
+    max-height: 250px;
+    margin-bottom: 20px;
 }
 
 .fotokleur2 {
-    max-height: 222px; 
-    margin-bottom: 20px; 
-    margin-left:5px; 
+    max-height: 222px;
+    margin-bottom: 20px;
+    margin-left: 5px;
 }
 
 .fotokleur3 {
-    max-height: 222px; 
-    margin-bottom: 20px; 
+    max-height: 222px;
+    margin-bottom: 20px;
 }
 
 .fotoprint {
-    max-height: 250px; 
-    margin-bottom: 20px; 
-    margin-left: 20px; 
+    max-height: 250px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .fotoposters {
-    max-height: 400px; 
-    margin-bottom: 20px; 
-    margin-left: 20px; 
+    max-height: 400px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .fotolayout {
-    max-width: 600px; 
+    max-width: 600px;
     margin-bottom: 20px;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 .fotoster {
-max-width: 600px; 
-margin-bottom: 20px;
-margin-left: -20px; 
+    max-width: 600px;
+    margin-bottom: 20px;
+    margin-left: -20px;
 }
 
 .fotolijsten {
-    max-width: 200px; 
+    max-width: 200px;
     margin-bottom: 20px;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 
 
 
 
-/* ====== Responsive iPhone Home ====== */
+/* ====== Responsive smallest screen Home ====== */
 
 @media only screen and (max-width: 720px) {
     .containers {
@@ -430,12 +429,34 @@ margin-left: -20px;
     }
 
     .main-pages {
-        display: flex; 
-        flex-direction: column;     }
+        display: flex;
+        flex-direction: column;
+    }
 
-        .pages-content {
-            margin: 25px 25px 25px 70px; 
-        }
+    .pages-content {
+        margin: 25px 25px 25px 70px;
+    }
+
+    img {
+        max-width: 400px; 
+    }
+
+    .fotolettertype {
+        max-width: 400px; 
+    }
+
+    .fotolayout {
+        max-width: 400px; 
+    }
+
+    .fotoster {
+        max-width: 400px; 
+    }
+
+    .contentanimatie {
+        max-width: 400px; 
+
+    }
 }
 
 
@@ -443,23 +464,113 @@ margin-left: -20px;
 
 @media only screen and (max-width: 900px) {
     .container-nav {
-        display: flex; 
-        flex-wrap: wrap; 
-        max-width: 400px; 
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 400px;
     }
 }
 
 @media only screen and (max-width: 720px) {
     .container-nav-pages {
-        position: relative ; 
+        position: relative;
     }
 
 }
+
 @media only screen and (max-width: 600px) {
-        .container-nav {
-            display: flex; 
-            flex-wrap: wrap; 
-            max-width: 300px; 
-        }
+    .container-nav {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 300px;
+    }
+
+}
+
+
+/* ====== Responsive iPhone ====== */
+@media only screen and (max-width: 450px) {
+
+
+    .logofoto {
+        max-width: 100px;
+        padding: 5px;
+
+    }
+
+    .geelkot {
+        max-width: 300px;
+        padding: 10px;
+        position: absolute;
+        top: 300px;
+        left: 30px;
+    }
+
+    .geelkot h1 {
+        font-size: 20px;
+    }
+
+    .geelkot h2 {
+        font-size: 15px;
+    }
+
+    .container-nav {
+        font-size: 10px;
+        margin-left: 10px;
+        max-width: 250px;
+ 
+    }
+
+    .introbuda {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .introhuisstijl {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .containers {
+        margin: 30px;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .pages-title .h4 {
+        font-size: 20px;
+        margin-left: 10px; 
+    }
+
+    .pages-content {
+        margin: 0px;
+    }
+
+
+    .oogenster2 {
+        max-width: 70px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    img {
+        max-width: 250px; 
+    }
+
+    .fotolettertype {
+        max-width: 300px; 
+    }
+
+    .fotolayout {
+        max-width: 300px; 
+    }
+
+    .fotoster {
+        max-width: 300px; 
+    }
+
+    .contentanimatie {
+        max-width: 280px; 
+
+    }
 
 }
