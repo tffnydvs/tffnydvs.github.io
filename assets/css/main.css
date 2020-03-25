@@ -232,7 +232,8 @@ h2 {
 .container-nav-pages {
     display: flex;
     flex-direction: column;
-    margin: 25px;
+    margin: 20px;
+    position: fixed; 
 }
 
 .container-nav-pages .navh3 .active {
@@ -263,7 +264,7 @@ a:visited {
 }
 
 .pages-content {
-    margin: 25px; 
+    margin: 25px 25px 25px 325px; 
 }
 
 .main-pages {
@@ -435,4 +436,30 @@ margin-left: -20px;
         .pages-content {
             margin: 25px 25px 25px 70px; 
         }
+}
+
+
+/* ====== Responsive menu ====== */
+
+@media only screen and (max-width: 900px) {
+    .container-nav {
+        display: flex; 
+        flex-wrap: wrap; 
+        max-width: 400px; 
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .container-nav-pages {
+        position: relative ; 
+    }
+
+}
+@media only screen and (max-width: 600px) {
+        .container-nav {
+            display: flex; 
+            flex-wrap: wrap; 
+            max-width: 300px; 
+        }
+
 }
