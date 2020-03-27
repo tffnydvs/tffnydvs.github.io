@@ -384,6 +384,8 @@ h2 {
 
 
 
+
+
 /* ====== Responsive smallest screen Home ====== */
 
 @media only screen and (max-width: 720px) {
@@ -453,6 +455,7 @@ h2 {
         max-width: 400px; 
     }
 
+  
     .contentanimatie {
         max-width: 400px; 
 
